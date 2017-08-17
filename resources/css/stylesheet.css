@@ -1,0 +1,72 @@
+html {
+  font-size: 16px;
+  font-family: "Raleway", Arial, "sans-serif";
+  background-color: white;
+  }
+
+body {
+  margin: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.light {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* navigation bar */
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width:480px) {
+  .mobile {
+    height: 4rem;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
+.light {
+  color: grey;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+}
+
+@media only screen and (min-width:480px) {
+  .desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    height: 4rem;
+  }
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li {
+  margin-right: 1rem;
+  }
