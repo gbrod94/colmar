@@ -70,3 +70,21 @@ nav ul {
 li {
   margin-right: 1rem;
   }
+
+  .sliding-middle-out {
+  	display: inline-block;
+  	position: relative;
+  	}
+  .sliding-middle-out:after {
+  	content: '';
+  	display: block;
+  	margin: auto;
+  	height: 1px;
+  	width: 0px;
+  	background: transparent;
+  	transition: width .5s ease, background-color .5s ease;
+  }
+  .sliding-middle-out:hover:after {
+  	width: 100%;
+  	background: skyblue;
+  }
