@@ -2,7 +2,7 @@ html {
   font-size: 16px;
   font-family: "Raleway", Arial, "sans-serif";
   background-color: white;
-  color: #4b5051;
+  color: #6a7172;
   }
 
 body {
@@ -22,13 +22,23 @@ a {
   color: inherit;
   }
 
-h1, h4, h3 {
+h1, h3, h4, {
   margin-top: 0rem;
   margin-bottom: 1.5rem;
   color: #444547;
   font-weight: bold;
   font-family: "Open Sans";
   padding-right: 1.5rem;
+}
+
+h1 {
+  margin: 2rem auto;
+}
+
+h5 {
+  margin: 0.5rem auto;
+  font-weight: normal;
+  font-size: 1.125rem;
 }
 
 p {
@@ -147,7 +157,6 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 2rem;
 
 }
 
@@ -207,4 +216,43 @@ li {
 
 .blue {
   color: #16adcc;
+}
+
+/* course section */
+
+#course {
+  background-color: #d1d3d6;
+  margin-top: 0px;
+  padding: 2rem 2.5rem;
+
+}
+
+#course h1 {
+  text-align: center;
+
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+.course {
+  width: 30%;
+  margin: 1rem;
+  background-color: white;
+}
+
+.courseimg {
+  height: auto;
+  width: 100%;
+}
+
+.course .text {
+  padding: 1rem 1rem 1.5rem 1rem;
+  width: 100%;
+  margin: 0px;
 }
