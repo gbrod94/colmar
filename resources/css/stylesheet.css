@@ -2,6 +2,7 @@ html {
   font-size: 16px;
   font-family: "Raleway", Arial, "sans-serif";
   background-color: white;
+  color: #4b5051;
   }
 
 body {
@@ -19,6 +20,19 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  }
+
+h1, h4, h3 {
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+  color: #444547;
+  font-weight: bold;
+  font-family: "Open Sans";
+  padding-right: 1.5rem;
+}
+
+p {
+  padding-right: 1.5rem;
 }
 
 /* navigation bar */
@@ -88,3 +102,109 @@ li {
   	width: 100%;
   	background: skyblue;
   }
+
+/* Main Banner */
+
+
+#mainbanner {
+  background-color: #d1d3d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-image: url("../assets/images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 60%;
+  height: 40rem;
+  margin: 2rem 1.5rem 2rem 1.5rem;
+  overflow: hidden;
+}
+
+.text {
+  text-align: left;
+  margin-left: 1.5rem;
+  margin-right: 6rem;
+}
+
+.btn {
+  background-color: #444547;
+  color: #edeeef;
+  padding: 2rem 3rem;
+  text-align: center;
+}
+
+/* Information */
+
+.colorchange:hover {
+  color: #076f84;
+}
+
+#information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+
+}
+
+#information .image {
+  border-right: 1px solid #d1d3d6;
+}
+
+.author {
+  color: black;
+
+}
+
+.big {
+  height: auto;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.image {
+  width: 60%;
+  overflow: hidden;
+  padding: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.articles {
+  width: 40%;
+}
+
+.article {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #d1d3d6;
+}
+
+.featured {
+  background-color: #d1d3d6;
+}
+
+.article .image {
+  padding: 0px;
+  width: 35%;
+  height: auto;
+}
+
+.small {
+  width: 100%;
+  height: auto;
+}
+
+.article .text {
+  width: 65%;
+  margin: 0;
+  margin-left: 1rem;
+  justify-content: center;
+}
+
+.blue {
+  color: #16adcc;
+}
