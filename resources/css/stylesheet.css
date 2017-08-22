@@ -284,7 +284,8 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width:480px) {
+/* chose 600px because of breakpoints */
+@media only screen and (min-width:600px) {
 
   .desktop {
     display: flex;
@@ -295,7 +296,7 @@ footer {
   }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:600px) {
 
   .mobile {
     height: 4rem;
@@ -374,6 +375,7 @@ footer {
   padding-left: 1rem;
   padding-top: 1rem;
   width: 100%;
+  background-color: white;
  }
 
  #information p {
@@ -406,7 +408,6 @@ footer {
     width: 100%;
     margin-bottom: 0.25rem;
     margin-top: 0.25rem;
-
   }
 
   #course {
@@ -415,11 +416,16 @@ footer {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-
   }
 
   #course .text {
     background-color: #d1d3d6;
+    transition-duration: 0.5s;
+  }
+
+  #course .text:hover {
+    /*background-color: rgba(68, 69, 71, 0.8);*/
+    background-color: rgba(68, 69, 71, 0.8);
   }
 
   .text {
