@@ -369,6 +369,10 @@ footer {
     padding: 0;
   }
 
+  .articles {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .article .text {
   display: flex;
   flex-direction: column;
