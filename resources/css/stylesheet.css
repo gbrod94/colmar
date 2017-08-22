@@ -2,7 +2,7 @@ html {
   font-size: 16px;
   font-family: "Raleway", Arial, "sans-serif";
   background-color: white;
-  color: #6a7172;
+
   }
 
 body {
@@ -25,7 +25,7 @@ a {
 h1, h3, h4, {
   margin-top: 0rem;
   margin-bottom: 1.5rem;
-  color: #444547;
+  color: black;
   font-weight: bold;
   font-family: "Open Sans";
   padding-right: 1.5rem;
@@ -33,16 +33,19 @@ h1, h3, h4, {
 
 h1 {
   margin: 2rem auto;
+  color: black;
 }
 
 h5 {
   margin: 0.5rem auto;
   font-weight: normal;
   font-size: 1.125rem;
+  color: #6a7172;
 }
 
 p {
   padding-right: 1.5rem;
+  color: #6a7172;
 }
 
 /* navigation bar */
@@ -156,12 +159,11 @@ li {
 #information {
   display: flex;
   justify-content: center;
-  align-items: center;
 
 }
 
-#information .image {
-  border-right: 1px solid #d1d3d6;
+.r_border {
+  border-right: 0.5px solid #d1d3d6;
 }
 
 .author {
@@ -189,7 +191,7 @@ li {
   padding: 1rem;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid #d1d3d6;
+  border-bottom: 3px solid #d1d3d6;
 }
 
 .featured {
@@ -205,6 +207,7 @@ li {
 .small {
   width: 100%;
   height: auto;
+  border: 0;
 }
 
 .article .text {
@@ -236,8 +239,6 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-
 }
 
 .course {
@@ -255,4 +256,37 @@ li {
   padding: 1rem 1rem 1.5rem 1rem;
   width: 100%;
   margin: 0px;
+}
+
+/* exhibiton section */
+
+
+#exhibition h1 {
+  text-align: center;
+}
+
+#exhibition .article {
+  border: 0;
+}
+
+.content {
+  display: flex;
+  align-content: flex-start;
+}
+
+.video {
+  padding-top: 0px;
+  padding-bottom: 1rem;
+}
+
+/* Footer */
+
+footer {
+  padding: 1rem 1.5rem 3rem 1.5rem;
+  border-top: 0.5px solid #d1d3d6;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #6a7172;
 }
